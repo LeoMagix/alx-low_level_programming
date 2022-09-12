@@ -12,15 +12,15 @@ int main(void)
 {
 	char c;
 	int i;
+	long int li;
+	long long int lli;
 	float f;
-	double d;
 
-	printf("The size of char is: %lu byte(s).\n", (unsigned long)sizeof(c));
-	printf("The size of int is: %lu byte(s).\n", (unsigned long)sizeof(i));
-	printf("The size of float is: %lu byte(s).\n", (unsigned long)sizeof(f));
-	printf("The size of double is: %lu byte(s).\n", (unsigned long)sizeof(d));
-	printf("The size of a long long int is: %llu byte(s).\n",
-	(unsigned long long)sizeof(i));
+	printf("The size of char is: %ld byte(s).\n", sizeof(c));
+	printf("The size of an int is: %ld byte(s).\n", sizeof(i));
+	printf("The size of long int is: %ld byte(s).\n", sizeof(li));
+	printf("The size of a long long int is: %ld byte(s).\n", sizeof(lli));
+	printf("The size of a float is: %ld byte(s).\n", sizeof(f));
 
 	return (0);
 }
