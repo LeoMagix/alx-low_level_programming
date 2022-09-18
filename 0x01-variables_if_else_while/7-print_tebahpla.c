@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - print reverse alphabets
  *
+ *Description - using main function
+ *This program reverses alphabets
  * Result: 0
  */
 
