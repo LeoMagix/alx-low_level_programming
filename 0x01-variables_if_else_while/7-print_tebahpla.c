@@ -1,12 +1,11 @@
+#include <unistd.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - print reverse alphabets
+ * main - Entry point
  *
  *Description - using main function
  *This program reverses alphabets
- * Result: 0
+ * Result: always 0 (success)
  */
 int main(void)
 {
