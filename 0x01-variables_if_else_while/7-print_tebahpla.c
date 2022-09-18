@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - print reverse alphabets
  *
@@ -7,7 +8,6 @@
  *This program reverses alphabets
  * Result: 0
  */
-
 int main(void)
 {
 	char ch;
