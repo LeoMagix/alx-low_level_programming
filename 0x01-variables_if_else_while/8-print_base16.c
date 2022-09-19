@@ -1,11 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prins all hexagonal numbers
+ * main - Entry point
  *
- * Description - usin main function
- * this programs "prints base16 numbers"
- * Request: 0
+ * Description: print hexagonal numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -23,6 +23,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
 }
