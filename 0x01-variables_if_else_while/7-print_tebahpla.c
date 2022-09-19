@@ -1,11 +1,11 @@
 #include <unistd.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- *Description - using main function
- *This program reverses alphabets
- * Result: always 0 (success)
+ * Description: print reverse alphabets
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -17,6 +17,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
 }
