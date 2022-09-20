@@ -13,11 +13,12 @@ int _islower(int c)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
+	/*refer to int c*/
 	if (c == i)
 	{
-		return (0);
+		return (1);
 	}
 	}
 
-	return (1);
+	return (0);
 }
