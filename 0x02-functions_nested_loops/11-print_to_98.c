@@ -18,7 +18,7 @@ void print_to_98(int i)
 			i++;
 		}
 	}
-	else if (1 > 98)
+	else if (i > 98)
 	{
 		while (i > 98)
 		{
