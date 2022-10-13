@@ -13,8 +13,8 @@ int main(void)
 {
 	char *c;
 	int *i;
-	double *d;
 	float *f;
+	double *d;
 
 	c = malloc_checked(sizeof(char) * 1024);
 	printf("%p\n", (void *)c);
