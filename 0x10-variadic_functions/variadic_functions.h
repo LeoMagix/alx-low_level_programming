@@ -7,7 +7,7 @@
  *    used in the 0x0F-variadic_functions directory.
  */
 
-#include <stdarg>
+#include <stdarg.h>
 
 /**
  * struct printer - A new struct type defining a printer
