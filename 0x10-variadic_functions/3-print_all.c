@@ -47,6 +47,11 @@ void print_float(va_list arg)
 	printf("%f", num);
 }
 
+/**
+ * print_string - prints strings
+ * @arg: A list of arguments pointing to
+ *  the strings to tbe printed.
+ */
 void print_string(va_list arg)
 {
 	char *str;
