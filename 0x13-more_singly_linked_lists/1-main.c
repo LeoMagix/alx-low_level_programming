@@ -22,9 +22,10 @@ int main(void)
 		printf("Error\n");
 		return (1);
 	}
-	new-> = 9;
+	new->n = 9;
 	new->next = head;
 	head = new;
+	n = listint_len(head);
 	printf("-> %lu elements\n", n);
 	free(new);
 	return (0);
