@@ -31,7 +31,7 @@ size_t looped_listint_count(listint_t *head)
 			{
 				nodes++;
 				to = to->next;
-				ra = (ra->next)->next;
+				ra = ra->next;
 			}
 
 			to = to->next;
