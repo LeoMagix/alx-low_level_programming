@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /*
- * Desc: Header file for function prototypes for 
- * 	Bit manipulation.
+ * Desc: Header file containing prototypes for all functions
+ *  Bit manipulation.
  */
 
 int _putchar(char c);
